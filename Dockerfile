@@ -51,4 +51,5 @@ RUN rm -f /lib/systemd/system/systemd*udev* \
   && rm -f /lib/systemd/system/getty.target
 
 VOLUME ["/sys/fs/cgroup", "/tmp", "/run"]
-CMD ["/lib/systemd/systemd"]
+#CMD ["/lib/systemd/systemd"]
+ENTRYPOINT ["/sbin/init"]
