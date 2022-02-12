@@ -1,5 +1,5 @@
-FROM ubuntu:18.04
-LABEL maintainer="Jeff Geerling"
+FROM ubuntu:20.04
+LABEL maintainer="Alex Ehlke"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
